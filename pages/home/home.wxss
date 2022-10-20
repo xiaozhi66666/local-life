@@ -1,0 +1,15 @@
+/* pages/home/home.wxss */
+
+.swiper-contain {
+  width: 750rpx;
+  height: 375rpx;
+  /* background-color: pink; */
+}
+
+.swiper-contain .item:first-child {
+  /* background-color: green; */
+}
+
+.swiper-contain .item:last-child {
+  /* background-color: red; */
+}

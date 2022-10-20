@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<!-- 顶部轮播图 -->
+<view>
+  <swiper autoplay class="swiper-contain" indicator-dots indicator-color="green" indicator-active-color="#fff" interval="6000" circular previous-margin="100rpx" bindchange="change">
+    <swiper-item class="item" wx:for="{{banners}}" wx:key="id">
+      <image mode="aspectFill" src="{{item.image}}"></image>
+    </swiper-item>
+  </swiper>
+</view>
